@@ -15,13 +15,11 @@ def main():
         if choice == "0":
             print("Exiting the program.")
             break
+            
         elif choice == "1":
-            password = input("Enter an 8-digit password: ")
-            if len(password) == 8 and password.isdigit():
-                encoded_password = encode(password)
-                print("Encoded password:", encoded_password)
-            else:
-                print("Invalid password. Please enter exactly 8 digits.")
+            password = input("Please enter a password: ")
+            encoded_password = encode(password)
+            print("Encoded password:", encoded_password)
 
         elif choice == "2":
             pass
