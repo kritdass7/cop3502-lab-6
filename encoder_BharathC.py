@@ -1,4 +1,4 @@
-from tkinter.ttk import Label
+from encoder_BharathC import encode
 
 
 def encode(password):
