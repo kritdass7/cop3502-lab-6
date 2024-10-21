@@ -19,9 +19,10 @@ def main():
             break
             
         elif choice == "1":
-            password = input("Please enter a password: ")
-            encoded_password = encode(password)
-            print("Encoded password:", encoded_password)
+            password = input("Enter an 8-digit password: ")
+            if len(password) == 8 and password.isdigit():
+                encoded_password = encode(password)
+                print("Encoded password:", encoded_password)
 
         elif choice == "2":
             pass
