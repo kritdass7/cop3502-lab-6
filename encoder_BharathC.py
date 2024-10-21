@@ -1,10 +1,12 @@
+# Name: Bharath Chowlur
+
 from encoder_BharathC import encode
 
 
 def encode(password):
     encoded_password = ""
-    for digit in password:
-        new_digit = (int(digit) + 3) % 10
+    for x in password:
+        new_digit = (int(x) + 3) % 10
         encoded_password += str(new_digit)
     return encoded_password
 
