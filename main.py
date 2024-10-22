@@ -17,6 +17,8 @@ while True:
         print("Your password has been encoded and stored!\n")
     elif option == 2:
         decoded_password = decode(encoded_password)
-        print("Decoded password:", decoded_password)
+        print(
+            f"The encoded password is {encoded_password}, and the original password is {decoded_password}.\n"
+        )
     elif option == 3:
         break
