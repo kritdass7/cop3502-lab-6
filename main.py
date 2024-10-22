@@ -1,5 +1,5 @@
 from encoder import encode
-from encoder import decode
+from decoder import decode
 
 encoded_password = None
 
