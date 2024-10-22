@@ -3,7 +3,7 @@
 def decode(encoded_password):
     decoded_password = "" 
 
-    for n in password:
+    for n in encoded_password:
         original = (int(n) - 3) % 10
         decoded_password += str(original)
 
